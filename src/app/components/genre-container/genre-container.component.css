@@ -1,0 +1,48 @@
+.data{
+    width:300px;
+    margin-right: 20px;
+}
+
+.img{
+    width: 300px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+h3, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.movie{
+    display: flex;
+    overflow-x: auto;
+    margin-top: 15px;
+}
+
+.test{
+    border: 3px solid black;
+    padding: 0px 30px 10px 30px;
+    margin-bottom: 20px;
+    background-color: #10416a;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow:  0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: black; 
+  }
